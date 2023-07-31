@@ -7,25 +7,150 @@
     <link rel = "stylesheet" href="./hp.css">
 </head>
 <body>
-    <h1>焼肉屋アジェ 名古屋店</h1>
+    <h1>🍖焼肉屋アジェ 名古屋店🍖</h1>
 <a href="https://tabelog.com/aichi/A2301/A230101/23054880/">食べログのページはこちら</a>
 
 <section>
-<h2>メニュー</h2>
-<div>
-    <P>
-        <li>カルピ</li>
-        <li>ロース</li>
-    </P>
-    <p class="naizo">
-        <li>タン塩</li>
-        <li>ハラミ</li>
-    </p>
+<h2 class="menuList">・メニュー</h2>
+<div class="click"  onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+    <a style="cursor:pointer;">▼ メニューを表示</a>
 </div>
-</section>
-    
+
+<div id="menu1" style="display:none;clear:both;">
+
+    <div class="main">
+        <div>
+            <ul>
+                <h3>《赤身》</h3>
+                <li>タン</li>
+                <li>上タン</li>
+                <li>天肉</li>
+                <li>並カルピ</li>
+                <li>上カルピ</li>
+                <li>特上カルピ</li>
+                <li>ロース</li>
+                <li>特上ロース</li>
+                <li>上ハラミ</li>
+                <li>特上ハラミ</li>
+                <li>ハラミエンガワ</li>
+                <li>上サガリ</li>
+                <li>焼きハツ</li>
+                <li>焼きレバ</li>
+                <li>上タンスジ</li>
+                <li>赤ヒモ</li>
+                <li>アギ</li>
+                <li>牛セセリ</li>
+                <li>ちからこぶ</li>
+                <li>ゲタカルピ</li>
+                <li>テール塩</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <h3>《白身》</h3>
+                <li><a href="./detail.html">ホソ</a></li>
+                <li>赤センマイ</li>
+                <li>テッチャン</li>
+                <li>ホルモンミックス</li>
+                <li>並ミノ</li>
+                <li>上ミノ</li>
+                <li>ウルテ</li>
+                <li>焼セン</li>
+                <li>コリコリ</li>
+                <li>シラズ</li>
+                <li>シビレ</li>
+                <li>コブクロ</li>
+                <li>白こぶ</li>
+            </ul>
+        </div>
+    </div>
+    <div class="sub">
+        <div>
+            <ul>
+                <h3>《その他》</h3>
+                <li>白菜キムチ</li>
+                <li>キムチ ２種盛り</li>
+                <li>キムチ ３種盛り</li>
+                <li>もやしナムル</li>
+                <li>めし</li>
+                <li>玉子かけごはん</li>
+                <li>サンチュ</li>
+                <li>韓国風インスタントラーメン</li>
+                <li>韓国のり</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>《日替わりスープ》</h3>
+                <li>タンク（肉）</li>
+                <li>わかめスープ</li>
+                <li>玉子スープ</li>
+                <li>チゲ（鍋）大</li>
+                <li>チゲ（鍋）</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>《生もの》</h3>
+                <li>生セン</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h2 class="nonbe">・私のアジェコース ～飲兵衛セレクト～ "nonbeSelect"</h2>
+<div class="click"  onclick="obj=document.getElementById('menu2').style; obj.display=(obj.display=='none')?'block':'none';">
+    <a style="cursor:pointer;">▼ "nonbeSelect"を表示</a>
+</div>
+<div id="menu2" style="display:none;clear:both;">
+    <h4>脂がきつくなってきたあなたへおすすめ</h4>
+    <div class="select">
+        <div>
+            <ul>
+                <h3>【3回目注文】</h3>
+                <li>焼酎orハイボール</li>
+                <li><a href="./detail.html">コリコリ</a></li>
+                <li>生セン</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>【2回目注文】</h3>
+                <li>上ハラミ</li>
+                <li>並ミノ</li>
+                <li>焼きハツ</li>
+                <li>焼きレバ</li>
+                <li>チゲ（鍋）</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>【初回注文】</h3>
+                <li>生ビール</li>
+                <li>お通しの千切りキャベツ</li>
+                <li>白菜キムチ</li>
+                <li>もやしナムル</li>
+                <li>タン</li>
+                <li><a href="./detail.html">生セン</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <h2>・悩んだこと、やりたかったこと</h2>
+    <div class="click"  onclick="obj=document.getElementById('menu3').style; obj.display=(obj.display=='none')?'block':'none';">
+        <a style="cursor:pointer;">▼ 悩んだこと、やりたかったことを表示</a>
+        <div id="menu3" style="display:none;clear:both;">
+        <p class="sentence">cssプロパティの使い方に悩みました😓<br>
+        良くも悪くも何でも出来てしまう為、各プロパティの使い方を調べるのに苦労しました。<br>
+        このcssファイルの中で使用しているプロパティもどのような機能なのか把握しきれていない為、<br>
+        基礎コースが落ち着いたら、いろいろと試してみます。<br>
+        <br>
+        やりたかったことはjavascriptを活用して、何か動きを付けたかったです。<br>
+        たとえば、お肉🥩とドリンク🍺の食べ合わせを評価したり等々。<br>
+        将来、実装できるように今後も学習を続けようと思っています。
+    </p>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
-
-
 
