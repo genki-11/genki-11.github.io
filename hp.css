@@ -1,6 +1,90 @@
 @charset "utf-8";
 
-/* .naizo {
-    margin: 200px 200px 200px 200px;
-    background-color: brown;
-} */
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.menuList{
+    color: #b22222;
+}
+
+.nonbe{
+    text-align: center;
+    color: #ee7b1a;
+}
+
+h4 {
+    text-align: center;
+}
+
+.click{
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    background: #b22222;
+    border: 1px solid #999;
+    padding: 10px;
+}
+.main>div{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: left;
+    width: 90%;
+    background: #FFF;
+    border: 1px dotted red;
+    padding: 10px;
+
+}
+
+.sub{
+    text-align: center;
+    display: flex;
+    background: #b22222;
+    border: 1px solid #999;
+    padding: 10px;
+}
+.sub>div{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: left;
+    width: 90%;
+    background: #FFF;
+    border: 1px dotted red;
+    padding: 10px;
+}
+
+.select{
+    text-align: center;
+    display: flex;
+    background: #ee7b1a;
+    border: 1px solid #999;
+    padding: 10px;
+}
+.select>div{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: left;
+    width: 90%;
+    background: #FFF;
+    border: 1px dotted red;
+    padding: 10px;
+}
+
+.sentence{
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
