@@ -37,8 +37,8 @@ h4 {
     padding: 10px;
 }
 .main>div{
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+    writing-mode: vertical-rl; /*text、ブロックの向き*/
+    text-orientation: upright; /*縦書き*/
     text-align: left;
     width: 90%;
     background: #FFF;
